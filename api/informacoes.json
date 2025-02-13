@@ -1,0 +1,37 @@
+{
+    "event": "Laravel Brasil Conference",
+    "location": "São Paulo, Brasil",
+    "date": "2023-11-25",
+    "speakers": [
+        {
+            "name": "João Silva",
+            "topic": "Introdução ao Laravel",
+            "time": "10:00 AM",
+            "photo": "https://i.pravatar.cc/150?img=3"
+        },
+        {
+            "name": "Maria Oliveira",
+            "topic": "Laravel e Vue.js",
+            "time": "11:00 AM",
+            "photo": "https://i.pravatar.cc/150?img=35"
+        },
+        {
+            "name": "Carlos Souza",
+            "topic": "Testes Automatizados com Laravel",
+            "time": "01:00 PM",
+            "photo": "https://i.pravatar.cc/150?img=2"
+        },
+        {
+            "name": "Ana Pereira",
+            "topic": "Desenvolvimento de APIs com Laravel",
+            "time": "02:00 PM",
+            "photo": "https://i.pravatar.cc/150?img=20"
+        },
+        {
+            "name": "Pedro Santos",
+            "topic": "Segurança em Aplicações Laravel",
+            "time": "03:00 PM",
+            "photo": "https://i.pravatar.cc/150?img=13"
+        }
+    ]
+}

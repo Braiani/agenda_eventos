@@ -2,8 +2,9 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>Agenda</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://laravel.com/img/favicon/favicon-32x32.png">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
@@ -39,17 +40,6 @@
         </div>
     </section>
 
-    <section class="py-20 px-4">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl font-semibold mb-6">
-                Sobre o Parallax
-            </h2>
-            <p class="text-lg text-gray-700">
-                O efeito parallax cria uma sensação de profundidade ao deslocar o fundo em uma velocidade diferente do conteúdo da página. Isso é feito com o uso de uma imagem de fundo e um movimento específico.
-            </p>
-        </div>
-    </section>
-
     <!-- <section class="relative w-full h-[50vh] bg-cover bg-center bg-fixed paralax-img" id="price">
         <div class="absolute inset-0 bg-blue-800 opacity-50"></div>
         <div class="absolute inset-0 flex items-center justify-center text-white">
@@ -65,10 +55,42 @@
             <p class="text-lg text-gray-700">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error. Eos, perferendis!
             </p>
+            <p class="text-lg text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error. Eos, perferendis!
+            </p>
+            <p class="text-lg text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error. Eos, perferendis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error. Eos, perferendis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error. Eos, perferendis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error. Eos, perferendis!
+            </p>
+        </div>
+    </section>
+
+
+    <section class="py-20 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">
+                Palestrantes
+            </h2>
+            <div class="row">
+                <div class="md:columns-3" id="palestrantes"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">
+                Programação
+            </h2>
+            <div class="row">
+                <div class="md:columns-3" id="programacao"></div>
+            </div>
         </div>
     </section>
     
 
-    <script src="./assets/js/script.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
 </body>
 </html>
