@@ -1,37 +1,119 @@
 {
-    "event": "Laravel Brasil Conference",
+    "event": "LaraCon Brasil",
     "location": "São Paulo, Brasil",
-    "date": "2023-11-25",
+    "date": "2025-11-21",
     "speakers": [
         {
+            "id": 1,
             "name": "João Silva",
-            "topic": "Introdução ao Laravel",
-            "time": "10:00 AM",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error.",
             "photo": "https://i.pravatar.cc/150?img=3"
         },
         {
+            "id": 2,
             "name": "Maria Oliveira",
-            "topic": "Laravel e Vue.js",
-            "time": "11:00 AM",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error.",
             "photo": "https://i.pravatar.cc/150?img=35"
         },
         {
+            "id": 3,
             "name": "Carlos Souza",
-            "topic": "Testes Automatizados com Laravel",
-            "time": "01:00 PM",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error.",
             "photo": "https://i.pravatar.cc/150?img=2"
         },
         {
+            "id": 4,
             "name": "Ana Pereira",
-            "topic": "Desenvolvimento de APIs com Laravel",
-            "time": "02:00 PM",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error.",
             "photo": "https://i.pravatar.cc/150?img=20"
         },
         {
+            "id": 5,
             "name": "Pedro Santos",
-            "topic": "Segurança em Aplicações Laravel",
-            "time": "03:00 PM",
+            "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem animi voluptas necessitatibus est inventore at corrupti esse quo eum incidunt reiciendis odio quod labore vero consectetur error.",
             "photo": "https://i.pravatar.cc/150?img=13"
+        }
+    ],
+    "schedules": [
+        {
+            "topic": "Abertura da Conferência: Boas-vindas e Introdução",
+            "time": "09:00 AM",
+            "speaker": "João Silva",
+            "speaker_id": 1,
+            "description": "Abertura oficial do evento, apresentação da agenda e objetivos do dia.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Introdução ao Laravel: Conceitos e Estrutura Básica",
+            "time": "10:00 AM",
+            "speaker": "Carlos Souza",
+            "speaker_id": 3,
+            "description": "Uma introdução ao Laravel, explorando sua estrutura, principais características e como começar a usá-lo.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Laravel e Vue.js: Integração Poderosa",
+            "time": "11:00 AM",
+            "speaker": "João Silva",
+            "speaker_id": 1,
+            "description": "Como integrar Laravel com Vue.js para criar aplicações modernas e dinâmicas.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Intervalo para Coffee Break",
+            "time": "12:00 PM",
+            "speaker": null,
+            "speaker_id": null,
+            "description": "Tempo para networking e troca de experiências entre os participantes.",
+            "location": "Área de Exposição"
+        },
+        {
+            "topic": "Testes Automatizados com Laravel: Melhorando a Qualidade do Código",
+            "time": "01:00 PM",
+            "speaker": "Maria Oliveira",
+            "speaker_id": 2,
+            "description": "Exploração de ferramentas e técnicas para testar aplicações Laravel de maneira eficiente e automatizada.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Desenvolvimento de APIs com Laravel: Estrutura e Práticas",
+            "time": "02:00 PM",
+            "speaker": "Ana Pereira",
+            "speaker_id": 4,
+            "description": "Como desenvolver APIs RESTful robustas com Laravel, utilizando boas práticas de arquitetura.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Segurança em Aplicações Laravel: Proteja Seus Dados",
+            "time": "03:00 PM",
+            "speaker": "Pedro Santos",
+            "speaker_id": 5,
+            "description": "Técnicas e práticas recomendadas para garantir a segurança das suas aplicações Laravel.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Networking e Happy Hour",
+            "time": "04:00 PM",
+            "speaker": null,
+            "speaker_id": null,
+            "description": "Momento descontraído para conhecer outros desenvolvedores, trocar ideias e ampliar a rede de contatos.",
+            "location": "Área de Exposição"
+        },
+        {
+            "topic": "Laravel e Banco de Dados Relacional: Desafios e Soluções",
+            "time": "05:00 PM",
+            "speaker": "Ana Pereira",
+            "speaker_id": 4,
+            "description": "Entenda como otimizar o uso de bancos de dados relacionais no Laravel, com foco em performance e escalabilidade.",
+            "location": "Auditório Principal"
+        },
+        {
+            "topic": "Introdução ao Docker para Laravel: Containers no Desenvolvimento",
+            "time": "06:00 PM",
+            "speaker": "Maria Oliveira",
+            "speaker_id": 2,
+            "description": "Como usar o Docker para criar ambientes de desenvolvimento consistentes em projetos Laravel.",
+            "location": "Auditório Principal"
         }
     ]
 }
