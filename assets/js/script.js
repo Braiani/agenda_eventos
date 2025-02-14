@@ -41,13 +41,10 @@ getSpeakers();
 getSchedules();
 
 
-
-
 window.addEventListener('scroll', function() {
     const header = document.getElementById('header');
-    let screenSize = window.screen;
-    console.log(screenSize);
-    if (window.scrollY > 100) { // A partir de 100px de rolagem
+    let screenSize = window.screen.availHeight;
+    if (window.scrollY > (screenSize - 50)) { // A partir de 100px de rolagem
         header.classList.add('header-visible');
     } else {
         header.classList.remove('header-visible');
