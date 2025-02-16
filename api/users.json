@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@doe.com",
+            "password": "123456",
+            "tickets": [
+                {
+                    "id": 1,
+                    "status": "paid"
+                },
+                {
+                    "id": 2,
+                    "status": "reserved"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Jane Doe",
+            "email": "jane@doe.com",
+            "password": "123456",
+            "tickets": [
+                {
+                    "id": 3,
+                    "status": "paid"
+                },
+                {
+                    "id": 4,
+                    "status": "reserved"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Alice Doe",
+            "email": "alice@doe.com",
+            "password": "123456",
+            "tickets": [
+                {
+                    "id": 5,
+                    "status": "paid"
+                },
+                {
+                    "id": 6,
+                    "status": "reserved"
+                }
+            ]
+        }
+    ]
+}

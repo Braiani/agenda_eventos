@@ -1,13 +1,9 @@
 import palestrante from "../components/palestrantes.js";
 import programacao from "../components/programacao.js";
-
-async function getApiInformations() {
-    const response = await fetch('../api/informacoes.json').then(response => response.json());
-    return response;
-}
+import fetchApi from "./fetchApi.js";
 
 async function getSpeakers() {
-    const response = await getApiInformations();
+    const response = await fetchApi('../api/informacoes.json');
 
     const speakers = response.speakers;
 
@@ -19,7 +15,7 @@ async function getSpeakers() {
 }
 
 async function getSchedules(){
-    const apiResponse = await getApiInformations();
+    const apiResponse = await fetchApi('../api/informacoes.json');
 
     const schedules = apiResponse.schedules;
     const speakers = apiResponse.speakers;
