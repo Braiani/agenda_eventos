@@ -18,15 +18,14 @@ async function login() {
         .then(response => {
             let user = false;
 
-            response.users.forEach(responseUser => {
-                if(responseUser.email === email && responseUser.password === password) {
-                    user = responseUser;
-                }
+            user = response.users.filter(responseUser => {
+                return responseUser.email === email && responseUser.password === password
             });
+            console.log(user);
 
-            if(user) {
-                sessionStorage.setItem('userLogged', JSON.stringify(user));
-                window.location.href = './index.html';
+            if(user.length != 0) {
+                sessionStorage.setItem('userLogged', JSON.stringify(user[0]));
+                window.location.href = './ingressos.html';
             } else {
                 alert('Usuário ou senha inválidos');
             }
