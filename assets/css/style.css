@@ -9,6 +9,10 @@
     background-image: url('https://images.unsplash.com/photo-1579829817710-72fed65c428e');
 }
 
+.paralax-palestrantes-img {
+    background-image: url('https://images.unsplash.com/photo-1579829817710-72fed65c428e');
+}
+
 section:nth-child(even) {
     background-color: var(--color-white);
 }

@@ -1,5 +1,5 @@
-import fetchApi from "./fetchApi.js";
-import { verifyLogin } from "./utils.js";
+import { verifyLogin, getUserLogged, removeUserLogged, showLoginIcon } from "./utils.js";
+import ingressosTable from "../components/ingressos.js"
 
 function logged() {
     if(!verifyLogin()) {
@@ -7,8 +7,16 @@ function logged() {
     }
 }
 
-async function getTickets() {}
+function getTickets() {
+    const tickets = getUserLogged().tickets;
+    document.getElementById('ingressos').innerHTML = ingressosTable(tickets);
+}
 
+function logout() {
+    removeUserLogged();
+    window.location.href = './index.html';
+}
 
 logged();
 getTickets();
+showLoginIcon();

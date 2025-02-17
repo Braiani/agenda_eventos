@@ -1,7 +1,7 @@
 import palestrante from "../components/palestrantes.js";
 import programacao from "../components/programacao.js";
 import fetchApi from "./fetchApi.js";
-import { header } from "./utils.js";
+import { header, showLoginIcon } from "./utils.js";
 
 async function getSpeakers() {
     const response = await fetchApi('../api/informacoes.json');
@@ -34,6 +34,7 @@ async function getSchedules(){
     });
 }
 
+showLoginIcon();
 getSpeakers();
 getSchedules();
 header();
