@@ -1,6 +1,7 @@
 import palestrante from "../components/palestrantes.js";
 import programacao from "../components/programacao.js";
 import fetchApi from "./fetchApi.js";
+import { header } from "./utils.js";
 
 async function getSpeakers() {
     const response = await fetchApi('../api/informacoes.json');
@@ -35,14 +36,4 @@ async function getSchedules(){
 
 getSpeakers();
 getSchedules();
-
-
-window.addEventListener('scroll', function() {
-    const header = document.getElementById('header');
-    let screenSize = window.screen.availHeight;
-    if (window.scrollY > (screenSize - 50)) { // A partir de 100px de rolagem
-        header.classList.add('header-visible');
-    } else {
-        header.classList.remove('header-visible');
-    }
-});
+header();

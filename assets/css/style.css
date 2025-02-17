@@ -5,6 +5,10 @@
     background-image: url('https://images.unsplash.com/photo-1553369728-15ec6971afaf');
 }
 
+.paralax-ingressos-img {
+    background-image: url('https://images.unsplash.com/photo-1579829817710-72fed65c428e');
+}
+
 section:nth-child(even) {
     background-color: var(--color-white);
 }
